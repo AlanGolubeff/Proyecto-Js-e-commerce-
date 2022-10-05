@@ -3,6 +3,7 @@ botonSwal.onclick = mostrarSwal
 
 function mostrarSwal() {
     Swal.fire({
-        icon: "success"
+        icon: "success",
+        title: "Su Pedido fue realizado con Exito!"
     })
 }
